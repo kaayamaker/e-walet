@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Wallet Login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="login-box">
+        <div class="icon">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/wallet.png" alt="wallet icon">
+        </div>
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Sign in to your E-Wallet account</p>
+
+        <form action="login.php" method="POST">
+            <label>Email Address</label>
+            <div class="input-group">
+                <span class="icon-field">📧</span>
+                <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <label>Password</label>
+            <div class="input-group">
+                <span class="icon-field">🔒</span>
+                <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="btn">Sign In</button>
+        </form>
+
+        <p class="register-text">
+            Don't have an account? <a href="register.html">Create Account</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
